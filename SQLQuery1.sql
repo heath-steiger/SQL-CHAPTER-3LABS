@@ -24,14 +24,19 @@ ORDER BY  DepartmentName, CourseDescription ASC;
 
 --exercise 4
 
-
-
+SELECT DepartmentName, CourseDescription, LastName, FirstName
+	FROM Departments D
+	JOIN Courses C ON D.DepartmentID = C.DepartmentID
+	JOIN StudentCourses SC ON C.CourseID = SC.CourseID
+	JOIN Students S ON SC.StudentID = S.StudentID
+WHERE D.DepartmentName LIKE 'English'
+ORDER BY CourseDescription ASC;
 
 SELECT *
-	FROM Courses
-
+	FROM Courses;
 SELECT * 
-	FROM Departments
-
+	FROM  StudentCourses;
+SELECT *
+	FROM Students;
 SELECT * 
-	FROM Instructors
+	FROM Departments;
