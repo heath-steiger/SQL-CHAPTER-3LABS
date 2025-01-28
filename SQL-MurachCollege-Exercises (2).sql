@@ -12,3 +12,9 @@ ORDER BY AnnualSalary;
 SELECT LastName, FirstName, HireDate, AnnualSalary
 	FROM Instructors
 ORDER BY AnnualSalary;
+
+
+SELECT *
+	FROM Students
+SELECT*
+	FROM Courses
