@@ -72,3 +72,4 @@ SELECT Title, CONCAT(FirstName, ',' , LastName) AS Actor, Role
 SELECT *
 	INTO MovieCopy
 	FROM Movie;
+
