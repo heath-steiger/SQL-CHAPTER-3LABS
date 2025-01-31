@@ -113,7 +113,7 @@ Insert INTO Product(VendorID, PartNumber, Name, Price, Unit)
 
 --RequestInsert
 Insert INTO Request(UserID, RequestNumber, Description, Justification, DateNeeded, DeliveryMode, Total, SubmittedDate)
-			 Values(1, '01', 'The One Ring', 'Need to Destroy', '3018-10-20', 'Pick-Up', 10500.99, '3018-10-18')
+			 Values(1, 'R181018001', 'The One Ring', 'Need to Destroy', '3018-10-20', 'Pick-Up', 10500.99, '3018-10-18')
 
 
 --LineItemRequest
